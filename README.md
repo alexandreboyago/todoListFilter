@@ -1,4 +1,3 @@
-````markdown
 # To-Do List com Filtros (React JS)
 
 Aplicativo simples e didático de lista de tarefas com filtros por status, ideal para estudos de React.
@@ -18,7 +17,7 @@ Aplicativo simples e didático de lista de tarefas com filtros por status, ideal
 - JavaScript, HTML e CSS
 
 ## 🧩 Como executar localmente
-```bash
+
 # 1) Clone o repositório
 git clone https://github.com/alexandreboyago/todoListFilter.git
 cd todoListFilter
@@ -28,15 +27,14 @@ npm install
 
 # 3) Rode em modo desenvolvimento
 npm start
-````
+
 
 O app abrirá em `http://localhost:3000`.
 
 ## 📦 Build de produção
 
-```bash
 npm run build
-```
+
 
 Gera a pasta `build/` otimizada para produção.
 
@@ -54,13 +52,13 @@ Gera a pasta `build/` otimizada para produção.
 
 ## 🗂️ Estrutura (resumo)
 
-```
+
 /public
 /src
   App.js
   App.css
   ...
-```
+
 
 *A nomenclatura pode variar levemente conforme evolução do projeto.*
 
