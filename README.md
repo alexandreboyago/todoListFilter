@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+````markdown
+# To-Do List com Filtros (React JS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicativo simples e didático de lista de tarefas com filtros por status, ideal para estudos de React.
 
-## Available Scripts
+## ✨ Funcionalidades
+- Adicionar novas tarefas
+- Marcar/desmarcar tarefa como concluída
+- Filtros por status:
+  - **Todas**
+  - **Concluídas**
+  - **Pendentes**
+- Interface minimalista com React + CSS
 
-In the project directory, you can run:
+## 🚀 Tecnologias
+- [React](https://react.dev/)
+- [Create React App](https://create-react-app.dev/)
+- JavaScript, HTML e CSS
 
-### `npm start`
+## 🧩 Como executar localmente
+```bash
+# 1) Clone o repositório
+git clone https://github.com/alexandreboyago/todoListFilter.git
+cd todoListFilter
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 2) Instale as dependências
+npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 3) Rode em modo desenvolvimento
+npm start
+````
 
-### `npm test`
+O app abrirá em `http://localhost:3000`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Build de produção
 
-### `npm run build`
+```bash
+npm run build
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Gera a pasta `build/` otimizada para produção.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧪 Scripts disponíveis
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* `npm start` – inicia o servidor de desenvolvimento
+* `npm run build` – gera o build de produção
+* `npm test` – inicia o runner de testes (quando aplicável)
 
-### `npm run eject`
+## 🖱️ Como usar
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Digite o texto da tarefa e confirme para adicioná-la.
+2. Clique em uma tarefa para alternar entre **pendente** e **concluída**.
+3. Use os botões de filtro (**Todas / Concluídas / Pendentes**) para visualizar apenas o que precisa.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🗂️ Estrutura (resumo)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+/public
+/src
+  App.js
+  App.css
+  ...
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+*A nomenclatura pode variar levemente conforme evolução do projeto.*
 
-## Learn More
+## 🗺️ Roadmap (idéias de evolução)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Remover/editar tarefas
+* Persistência com `localStorage`
+* Contador de pendentes/concluídas
+* Testes unitários com React Testing Library
+* Acessibilidade (ARIA) e navegação por teclado
+* Deploy em Vercel/Netlify
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contribuindo
 
-### Code Splitting
+1. Faça um fork do projeto
+2. Crie uma branch: `git checkout -b feat/minha-feature`
+3. Commit: `git commit -m "feat: minha feature"`
+4. Push: `git push origin feat/minha-feature`
+5. Abra um Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📄 Licença
 
-### Analyzing the Bundle Size
+Ainda não há licença definida. Sugestão: **MIT** (simples e permissiva).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+Feito com ❤️ por [Alexandre Boyago](https://github.com/alexandreboyago)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+📺 Aula completa no YouTube
+https://youtu.be/OuvH2OwHv_c
