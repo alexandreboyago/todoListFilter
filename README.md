@@ -87,9 +87,5 @@ Ainda não há licença definida. Sugestão: **MIT** (simples e permissiva).
 
 Feito com ❤️ por [Alexandre Boyago](https://github.com/alexandreboyago)
 
-```
-
-
-```
 📺 Aula completa no YouTube
 https://youtu.be/OuvH2OwHv_c
