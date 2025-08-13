@@ -60,31 +60,6 @@ Gera a pasta `build/` otimizada para produção.
   ...
 
 
-*A nomenclatura pode variar levemente conforme evolução do projeto.*
-
-## 🗺️ Roadmap (idéias de evolução)
-
-* Remover/editar tarefas
-* Persistência com `localStorage`
-* Contador de pendentes/concluídas
-* Testes unitários com React Testing Library
-* Acessibilidade (ARIA) e navegação por teclado
-* Deploy em Vercel/Netlify
-
-## 🤝 Contribuindo
-
-1. Faça um fork do projeto
-2. Crie uma branch: `git checkout -b feat/minha-feature`
-3. Commit: `git commit -m "feat: minha feature"`
-4. Push: `git push origin feat/minha-feature`
-5. Abra um Pull Request
-
-## 📄 Licença
-
-Ainda não há licença definida. Sugestão: **MIT** (simples e permissiva).
-
----
-
 Feito com ❤️ por [Alexandre Boyago](https://github.com/alexandreboyago)
 
 📺 Aula completa no YouTube
